@@ -1,0 +1,153 @@
+*{
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+/*nav */
+.navbar {
+  padding: 1rem;
+  border: solid 1px #ccc;
+}
+
+.navbar .navitem a{
+color: #212529;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+.navbar .nav-item .btn{
+  color: #FFF;
+  background-color: #F03E3E;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+.nav-link.btn.btn-primary:hover {
+  background-color: #FFF;
+  color: #F03E3E;
+  border-color: #F03E3E;
+}
+
+/* banner */
+#top-container {
+  padding:110px;
+  background-color: #F7F9FC;
+  border-bottom: 4px solid #013068;
+  margin-bottom: 30px;
+  background-image: url('../img/banner2.jpg');
+  background-position: 0 100px;
+  background-size: cover;
+  color: #FFF;
+}
+
+#main-title {
+  padding: 30px 0;
+  font-size: 3rem;
+
+}
+
+#main-subtitle{
+  font-size: 1rem;
+  padding-bottom: 80px;
+}
+
+/* form */
+
+#search-form {
+  padding: 30px;
+}
+
+#search-form .col-md-10, #search-form .col-md-2 {
+  padding: 0;
+}
+
+#search-form input, #search-form button {
+width: 100%;
+border-radius: 0;
+height: 50px;
+font-size: 18px;
+}
+
+#search-form button{
+  background-color: #F03E3E;
+  color: #FFF;
+  border: 1px solid transparent;
+}
+#search-form button:hover {
+  background-color: #FFF;
+  color: #F03E3E;
+  border-color: #F03E3E;
+}
+
+/* lista */
+#job-list .list-group-item {
+  margin-bottom: 8px;
+  border: 1px solid #CCC;
+  padding: 15px 80px;
+  color:#212529;
+  height: 120px;
+}
+
+#job-list .list-group-item p {
+font-size: 14px;
+margin-bottom: 5px;
+}
+
+#job-list .list-group-item.new-job {
+border: none;
+background-color: #FFF7CC;
+}
+
+#jobs-container{
+  padding: 0 100px;
+  padding-bottom: 50px;
+}
+
+#job-list-title{
+  margim-bottom: 35px;
+}
+
+.list-group-item img{
+  width: 80px;
+  border: 1px solid #212539;
+  border-radius: 50%;
+  background-color: #FFF;
+  position: absolute;
+  left: -40px;
+  top: calc(50% -40px);
+}
+
+.list-group-item a {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  height: 50px;
+  line-height: 35px;
+  background-color: #F03E3E;
+  border: 1px solid transparent;
+  border-radius: 0;
+  color: #FFF;
+}
+
+.new-job-label {
+  background-color: #FFD500;
+  color: #4D5154;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  position: absolute;
+  right: 250px;
+  top: 40px;
+  display: none;
+}
+
+.new-job .new-job-label{
+  display: block;
+}
