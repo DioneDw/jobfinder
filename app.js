@@ -1,4 +1,6 @@
 const express = require('express');
+const exphbs = require('express-handlebars');  // Handlebars  
+const path = require('path')
 const app = express();
 const db = require('./db/connection');
 const bodyParser = require('body-parser');
@@ -11,6 +13,12 @@ app.listen(PORT, function(){
 
 // usando o body Parser
 app.use(bodyParser.urlencoded({ extended: false }));
+
+
+// handlebars.
+app.set('views', path.join(__dirname, 'views'));
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
 
 // db connection
 db
