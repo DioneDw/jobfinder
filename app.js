@@ -15,6 +15,7 @@ const Op = Sequelize.Op;
 const PORT = 3000;
 app.listen(PORT, function(){
   console.log(`O express está sendo executado na porta ${PORT}.`);
+  console.log(`http://localhost:${PORT}/`)
 })
 
 // usando o body Parser

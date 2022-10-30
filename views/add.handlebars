@@ -8,7 +8,7 @@
             Preencha os dados da melhor forma possível para encontrar mais
             rápido seu dev!
           </h2>
-          <form action="">
+          <form method="post" action="/jobs/add">
             <div class="form-group" id="form-itens">
               <label for="title">Título da vaga:</label>
               <input
@@ -68,7 +68,7 @@
                 required
               />
             </div>
-            <input type="hidden" value="1" name="new-job">
+            <input type="hidden" value="1" name="newjob">
             <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
