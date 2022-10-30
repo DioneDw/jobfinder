@@ -1,4 +1,4 @@
-#Projeto Job Finder
+# Job Finder
 
 Uma aplicação para cadastro e visualização de vagas para desenvolvedores.
 
@@ -18,19 +18,19 @@ Projeto realizado com os conhecimentos adquiridos no curso de Javascript do Bás
 
 ## :art: Layout
 ### Homepage
-![Home](project_previews/home-page.png)
+![home](project-previews/home-page.png)
 
 ### Adicionar vaga
-![Alt Text](project_previews/add-page.png)
+![add](project-previews/add-page.png)
 
 ### Visualizar vaga
-![Alt Text](project_previews/view-page.png)
+![view](project-previews/view-page.png)
 
 ### Páginas responsivas
 <div style="inline" >
-<img src="project_previews/responsive-page.png" width="250" height="500" align="center"/>
-<img src="project_previews/responsive-add-page.png" width="250" height="500" align="center"/>
-<img src="project_previews/responsive-view-page.png" width="250" height="500" align="center"/>
+<img src="project-previews/responsive-page.png" width="250" height="500" align="center" alt="home responsive"/>
+<img src="project-previews/responsive-add-page.png" width="250" height="500" align="center" alt="add page responsive"/>
+<img src="project-previews/responsive-view-page.png" width="250" height="500" align="center" alt="view page responsive"/>
 </div>
 
 
@@ -45,9 +45,9 @@ No terminal, no local onde deseja criar uma pasta execute o comando:
 mkdir <nome_da_pasta>
 ### Clonar repositório
 git clone https://github.com/DioneDw/jobfinder.git
-### Instalar o node modules e dependências em cada uma das 3 pastas principais (server, web e mobile)
+### Instalar o node modules e dependências na pasta principal
 npm install                                                                                                          
-### Iniciar serviços server e web (dentro da pasta principal. Executar):                                                                                  
+### Iniciar o servidor node (dentro da pasta principal. Executar):                                                                                  
 npm run dev 
                                                                                                                                                           
 ## :raising_hand_man: Autor
