@@ -12,3 +12,4 @@
 - Node.js 
 - Express
 - Sequelize ORM
+- Handlebars
